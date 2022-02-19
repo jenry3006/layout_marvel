@@ -1,0 +1,175 @@
+body {
+  padding: 0;
+  margin: 0;
+  border-top: 5px red solid;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EEE;
+}
+
+header {
+  background-color: #FFF;
+  text-align: center;
+  border-bottom: 1px #EEE solid;
+}
+
+header .logo {
+  padding: 10px;
+}
+
+header .menu {
+  padding: 0;
+  margin: 0;
+  border-top: 1px #EEE solid;
+}
+
+header .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+header .menu li a {
+  display: block;
+  padding: 10px;
+  color: #111;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .menu li a:hover {
+  background-color: #EEE;
+}
+
+#home {
+  background-color: #FFF;
+  padding: 10px;
+}
+
+#home .banner {
+  background: url(../img/banner.jpg) no-repeat center;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+}
+
+#home .line {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#home .line h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+#home .line p {
+  margin: 10px 0;
+}
+
+#home .service {
+  text-align: center;
+}
+
+#home .service h3 {
+  font-weight: 600;
+}
+
+#home .service p {
+  font-size: 12px;
+}
+
+#home .service .line-service {
+  width: 100px;
+  height: 5px;
+  background-color: red;
+  margin: auto;
+}
+
+#home .boxs .circle {
+  height: 65px;
+  width: 65px;
+  border: 1px #666 solid;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+}
+
+#home .boxs .circle img {
+  margin-top: 25px;
+  fill: red;
+}
+
+#home .resumo div:first-child {
+  background-color: #EEE;
+}
+
+#home .resumo div:first-child h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#home .resumo div:first-child .sub {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#home .resumo img {
+  width: 100%;
+}
+
+#home .filmes h4 {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
+
+#home .filmes .lista ul {
+  padding: 0;
+  margin: 0;
+}
+
+#home .filmes .lista ul li {
+  list-style: none;
+  border-bottom: 1px #EEE solid;
+  padding: 10px;
+}
+
+#home .filmes .lista ul li img {
+  float: left;
+  margin-right: 15px;
+}
+
+#home .filmes .lista ul li p {
+  margin: 0;
+  padding: 0;
+}
+
+#home .filmes .lancamento .filme {
+  background-color: #EEE;
+  padding: 5px;
+}
+
+#home .filmes .lancamento .filme img {
+  width: 100%;
+}
+
+#home .filmes .lancamento .filme .title {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#home .filmes .lancamento .filme .texto {
+  font-size: 12px;
+}
+
+#home .dtLancamento {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
